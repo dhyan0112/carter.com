@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/b29b6f6576.js" crossorigin="anonymous"></script>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+        #top {
+            height: 30px;
+            background-color: whitesmoke;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+        }
+
+        #top_top {
+            width: 20%;
+            display: flex;
+            justify-content: space-between;
+            height: 25px;
+
+        }
+
+        #top_dwn i {
+            font-size: x-small;
+        }
+
+        #top_dwn {
+            width: 20%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #top_mid {
+            font-style: italic;
+            font-family: PoppinsRegular-AEM;
+        }
+
+        #middle {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            align-items: center;
+            height: 100px;
+        }
+
+        #two {
+            margin: auto;
+            width: 60%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #two>div {
+            text-align: center;
+            font-size: medium;
+            font-style: normal;
+            font-weight: lighter;
+        }
+
+        #one>img {
+            width: 200px;
+        }
+
+        #three {
+            width: 250px;
+            height: 35px;
+            border: 1px solid rgb(107, 106, 106);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-radius: 50px;
+            font-size: 15px;
+            padding-left: 10px;
+            padding-right: 20px;
+        }
+
+        #three>input {
+            border: 0px;
+            font-size: 18px;
+        }
+
+        #two h2 {
+            font-weight: lighter;
+            font-family: AEM;
+        }
+
+        #grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            width: 98%;
+            margin: auto;
+            padding: 10px;
+        }
+
+        #grid img {
+            width: 100%;
+        }
+
+        #no_6 {
+            width: 80%;
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            gap: 20px;
+            margin: auto;
+
+        }
+
+        #no_6>div {
+            border: 2px solid rgb(78, 78, 78);
+            text-align: center;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 50px;
+
+        }
+
+        #no_7 img {
+            width: 100%;
+        }
+
+        #no_7 div {
+            text-align: center;
+            font-weight: bolder;
+        }
+        #no_8to10 img{
+            width: 100%;
+        }
+        #no_12 img{
+           width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="top">
+        <div id="top_top">
+            <h4>karter's</h4>
+            <h4>oshkos</h4>
+            <h4>skipHop</h4>
+            <h4>plannet</h4>
+        </div>
+        <div id="top_mid">
+            Free shoping on $35+ order
+        </div>
+        <div id="top_dwn">
+            <i class="fa-solid fa-user">sign in</i>
+            <i class="fa-regular fa-heart">heart</i>
+            <i class="fa-regular fa-boxes-stacked">orders</i>
+            <i class="fa-regular fa-cart-shopping-fast">cart</i>
+        </div>
+    </div>
+    <div id="middle">
+        <div id="one"><img src="kart.png" alt=""></div>
+        <div id="two">
+            <div>
+                <h2>Baby</h2>
+                <p style="font-size:x-small;">PREME-24M</p>
+            </div>
+            <div>
+                <h2>Todler</h2>
+                <p style="font-size:x-small;">2T-5T</p>
+            </div>
+            <div>
+                <h2>Kid</h2>
+                <p style="font-size:x-small;">4-14</p>
+            </div>
+            <div>
+                <h2>New&popular</h2>
+            </div>
+            <div>
+                <h2>Hilary Duff & karter's</h2>
+            </div>
+            <div>
+                <h2>Sales</h2>
+            </div>
+        </div>
+        <div id="three"><input type="text" placeholder="find your product"><i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+    </div>
+    <div id="btn">
+        <div
+            style=" background-color:whitesmoke;height: 35px; padding: 5px;display: flex;align-items: center;justify-content: center;">
+            <h4 style="font-weight: bolder;font-size:large;color: rgb(25, 123, 209);">10% off a $50+buy online,pick up
+                in store order</h4>
+        </div>
+        <div
+            style=" height: 55px; display: flex; justify-content: center; align-items: center;background-color: palevioletred;">
+            <h2
+                style="color: whitesmoke; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;">
+                NEW! Spring Capule collection From Chief Mom officer Hillary Duff</h2>
+        </div>
+    </div>
+    <div id="grid">
+        <div><img src="/1.jpg" alt=""></div>
+        <div><img src="/2.jpg" alt=""></div>
+        <div><img src="/3.jpg" alt=""></div>
+    </div>
+    <div id="no_6">
+        <div>Baby girl</div>
+        <div>Baby boy</div>
+        <div>Todler girl</div>
+        <div>Todler Boy</div>
+        <div>Girl</div>
+        <div>Boy</div>
+    </div>
+    <div style="display: grid; grid-template-columns: repeat(6,1fr);margin: auto;width: 95%;gap: 10px;" id="no_7">
+        <div><img src="/4.png" alt=""><br>Baby girl</div>
+        <div><img src="/5.png" alt=""><br>Baby boy</div>
+        <div><img src="/6.png" alt=""><br>Todler girl</div>
+        <div><img src="/7.png" alt=""><br>Todler Boy</div>
+        <div><img src="/8.png" alt=""><br> Kid Girl</div>
+        <div><img src="/9.png" alt=""><br>Kid Boy</div>
+    </div>
+    <div style=" padding:20px 0px;" id="no_8to10">
+        <div><img src="/10.jpg" alt=""></div>
+        <div><img src="/11.png" alt=""></div>
+        <div><img src="/12.jpg" alt=""></div>
+    </div>
+    <div  style="text-align: center;" id="no_11"><h1 style="font-size: 50px; color: rgb(11, 64, 210);">SHOP OUR FAVES</h1></div>
+    <div style=" margin: auto; gap: 10px; display: grid; grid-template-columns: repeat(6,1fr);width: 98%;" id="no_12">
+        <div><img src="/13.svg" alt=""></div>
+        <div><img src="/14.svg" alt=""></div>
+        <div><img src="/15.svg" alt=""></div>
+        <div><img src="/16.svg" alt=""></div>
+        <div><img src="/17.svg" alt=""></div>
+        <div><img src="/18.svg" alt=""></div>
+    </div>
+
+</body>
+
+</html>

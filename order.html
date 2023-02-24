@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://kit.fontawesome.com/b29b6f6576.js" crossorigin="anonymous"></script>
+
     <style>
         * {
             padding: 0px;
@@ -69,7 +70,7 @@
             font-weight: lighter;
         }
 
-        #one>img {
+        #one img {
             width: 200px;
         }
 
@@ -95,52 +96,6 @@
             font-weight: lighter;
             font-family: AEM;
         }
-
-        #grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 10px;
-            width: 98%;
-            margin: auto;
-            padding: 10px;
-        }
-
-        #grid img {
-            width: 100%;
-        }
-
-        #no_6 {
-            width: 80%;
-            display: grid;
-            grid-template-columns: repeat(6, 1fr);
-            gap: 20px;
-            margin: auto;
-
-        }
-
-        #no_6>div {
-            border: 2px solid rgb(78, 78, 78);
-            text-align: center;
-            padding: 10px;
-            border-radius: 5px;
-            margin-bottom: 50px;
-
-        }
-
-        #no_7 img {
-            width: 100%;
-        }
-
-        #no_7 div {
-            text-align: center;
-            font-weight: bolder;
-        }
-        #no_8to10 img{
-            width: 100%;
-        }
-        #no_12 img{
-           width: 100%;
-        }
     </style>
 </head>
 
@@ -158,12 +113,12 @@
         <div id="top_dwn">
             <i class="fa-solid fa-user"><a href="/signin.html" style="color: grey;">signin</a></i>
             <i class="fa-regular fa-heart">heart</i>
-            <i class="fa-regular fa-boxes-stacked"><a href="/order.html" style="color: grey;">orders</a></i>
+            <i class="fa-regular fa-boxes-stacked">orders</i>
             <i class="fa-regular fa-cart-shopping-fast">cart</i>
         </div>
     </div>
     <div id="middle">
-        <div id="one"><img src="kart.png" alt=""></div>
+        <div id="one"><a href="/index.html"><img src="kart.png" alt=""></a></div>
         <div id="two">
             <div>
                 <h2>Baby</h2>
@@ -197,50 +152,36 @@
                 in store order</h4>
         </div>
         <hr style="color: skyblue;border:1px solid rgb(17, 165, 228);">
-
-        <div
-            style=" height: 55px; display: flex; justify-content: center; align-items: center;background-color: palevioletred;">
-            <h2
-                style="color: whitesmoke; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;">
-                NEW! Spring Capule collection From Chief Mom officer Hillary Duff</h2>
+    </div>
+    <div id="main" style="padding: 20px;background-color: whitesmoke;">
+        <div id="main_one"
+            style="width: 1140px;height: 40px; margin: auto;display: flex;align-items: center; padding-left: 100px;">
+            <h2 style="font-family: Arial, Helvetica, sans-serif;color: gray;">track your order</h2>
         </div>
+        <div id="main_two"
+            style="align-items: center; display: flex;justify-content: space-between; width: 920px;height: 65px;margin: auto;">
+            <div
+                style="  display: flex; align-items: center; height: 60px; width: 45%;box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                <input style=" font-size: larger; padding-left: 10px; width: 100%;height:100%;border: 0px;" type="number"
+                    placeholder="order number"></div>
+            <div
+                style=" display: flex; align-items: center; height: 60px; width: 45%;box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                <input style=" font-size: larger; padding-left: 10px; width: 100%;height:100%;border: 0px;" type="email"
+                    placeholder="email"></div>
+        </div>
+    
+        <div id="main_four" style="width: 920px;margin:auto;padding-top: 50px ;padding-bottom: 20px;">
+            <button
+                style="font:bolder; display:block;margin:auto;font-size:25px;border-radius: 5px; border: 0px; padding: 5px 70px;color: rgb(173, 173, 175);background-color: rgb(23, 51, 194);">
+             track orders
+            </button>
+        </div>
+        <div
+            style="width:920px;display: block; margin: auto;padding-top: 50px;text-align: center;color: grey; padding-bottom: 10px;">
+            <i>please sign in to see orders</i>
+        </div>
+        <button style=" font-size: larger; display: block; margin: auto;padding: 10px 100px;">sign in</button>
     </div>
-    <div id="grid">
-        <div><img src="/1.jpg" alt=""></div>
-        <div><img src="/2.jpg" alt=""></div>
-        <div><img src="/3.jpg" alt=""></div>
-    </div>
-    <div id="no_6">
-        <div>Baby girl</div>
-        <div>Baby boy</div>
-        <div>Todler girl</div>
-        <div>Todler Boy</div>
-        <div>Girl</div>
-        <div>Boy</div>
-    </div>
-    <div style="display: grid; grid-template-columns: repeat(6,1fr);margin: auto;width: 95%;gap: 10px;" id="no_7">
-        <div><img src="/4.png" alt=""><br>Baby girl</div>
-        <div><img src="/5.png" alt=""><br>Baby boy</div>
-        <div><img src="/6.png" alt=""><br>Todler girl</div>
-        <div><img src="/7.png" alt=""><br>Todler Boy</div>
-        <div><img src="/8.png" alt=""><br> Kid Girl</div>
-        <div><img src="/9.png" alt=""><br>Kid Boy</div>
-    </div>
-    <div style=" padding:20px 0px;" id="no_8to10">
-        <div><img src="/10.jpg" alt=""></div>
-        <div><img src="/11.png" alt=""></div>
-        <div><img src="/12.jpg" alt=""></div>
-    </div>
-    <div  style="text-align: center;" id="no_11"><h1 style="font-size: 50px; color: rgb(11, 64, 210);">SHOP OUR FAVES</h1></div>
-    <div style=" margin: auto; gap: 10px; display: grid; grid-template-columns: repeat(6,1fr);width: 98%;" id="no_12">
-        <div><img src="/13.svg" alt=""></div>
-        <div><img src="/14.svg" alt=""></div>
-        <div><img src="/15.svg" alt=""></div>
-        <div><img src="/16.svg" alt=""></div>
-        <div><img src="/17.svg" alt=""></div>
-        <div><img src="/18.svg" alt=""></div>
-    </div>
-
 </body>
 
 </html>

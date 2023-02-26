@@ -135,11 +135,34 @@
             text-align: center;
             font-weight: bolder;
         }
-        #no_8to10 img{
+
+        #no_8to10 img {
             width: 100%;
         }
-        #no_12 img{
-           width: 100%;
+
+        #no_12 img {
+            width: 100%;
+        }
+
+        #footer {
+            margin: 50px auto;
+            width: 90%;
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+        .inpt {
+            height: 30px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            width: 400px;
+        }
+
+        #footer p {
+            font-family: Arial, Helvetica, sans-serif;
         }
     </style>
 </head>
@@ -231,7 +254,9 @@
         <div><img src="/11.png" alt=""></div>
         <div><img src="/12.jpg" alt=""></div>
     </div>
-    <div  style="text-align: center;" id="no_11"><h1 style="font-size: 50px; color: rgb(11, 64, 210);">SHOP OUR FAVES</h1></div>
+    <div style="text-align: center;" id="no_11">
+        <h1 style="font-size: 50px; color: rgb(11, 64, 210);">SHOP OUR FAVES</h1>
+    </div>
     <div style=" margin: auto; gap: 10px; display: grid; grid-template-columns: repeat(6,1fr);width: 98%;" id="no_12">
         <div><img src="/13.svg" alt=""></div>
         <div><img src="/14.svg" alt=""></div>
@@ -240,7 +265,54 @@
         <div><img src="/17.svg" alt=""></div>
         <div><img src="/18.svg" alt=""></div>
     </div>
+    <div style="margin:20px;">
+        <h1 style="text-align: center;">
+            Discover more from our most-loved brands
+        </h1>
+        <div style="display:flex;justify-content: center;">
+            <img src="/kli.png"alt="">
 
+        </div>
+    </div>
+    <hr>
+    <div id="footer">
+        <div>
+            <h3>Support</h3><br>
+            <p>Customer Service</p><br>
+            <p>Accessibility Support</p><br>
+            <p>Shipping</p><br>
+            <p>Returns</p><br>
+            <p>Gift Cards</p><br>
+            <p>Today's Deals</p><br>
+            <p>Size Chart</p><br>
+            <p>My Account</p><br>
+            <p>Carter's® Credit Card</p><br>
+            <p>My Rewarding Moments®</p><br>
+            <p>Contact Us</p>
+        </div>
+        <div>
+            <h3>About us</h3><br>
+            <p>Carter's Inc.</p><br>
+            <p>Life With Kids</p><br>
+            <p>Baby of the Month Contest</p><br>
+            <p>All Store Locations</p><br>
+            <p>Join Carter's Affliate Program</p><br>
+            <p>Investor Relations</p><br>
+            <p>Careers</p><br>
+            <p>Raise the Future</p>
+        </div>
+        <div>
+            <div class="inpt">
+                <input style=" border: 0px; width: 400px; font-size: 100%;" type="text"
+                    placeholder="saving delivered right to your inbox">
+            </div>
+            <br><br>
+            <div class="inpt">
+                <input style=" border: 0px; width: 400px;font-size: 100%;" type="text"
+                    placeholder="enter zip code to find the a store">
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
